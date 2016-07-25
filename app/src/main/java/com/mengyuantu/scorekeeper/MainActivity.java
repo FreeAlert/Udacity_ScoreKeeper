@@ -18,12 +18,7 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        String jamesbond = "hi";
-        String jamesBond = "hello";
-        String s = jamesBond + jamesbond;
     }
-
-
 
     /**
      * Increase the score for Team A by 1 point.
@@ -37,8 +32,6 @@ public class MainActivity extends AppCompatActivity {
         foulTeamA= foulTeamA + 1;
         foulForTeamA(foulTeamA);
     }
-
-
     /**
      * Increase the score for Team B by 1 point.
      */
@@ -51,7 +44,7 @@ public class MainActivity extends AppCompatActivity {
      * Increase the score for Team B by 2 points.
      */
     public void addOneOfFoulForTeamB(View v) {
-        foulTeamB= foulTeamB + 2;
+        foulTeamB= foulTeamB + 1;
         foulForTeamB(foulTeamB);
     }
 
